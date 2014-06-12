@@ -416,7 +416,6 @@
   <!-- nozomi specific changes -->
   <project path="bootable/recovery" name="aosp_bootable_recovery" remote="aospxs" revision="aosp-4.4" />
   <project path="device/sony/nozomi" name="aosp_device_sony_nozomi" remote="aospxs" revision="aosp-4.4" />
-  <project path="device/sony/nozomi/DASH" name="sony_DASH" remote="aospxs" revision="aosp-4.4" />
   <project path="external/busybox" name="aosp_external_busybox" remote="aospxs" revision="aosp-4.4" />  
   <project path="external/bluetooth/bluedroid" name="aosp_external_bluetooth_bluedroid" remote="aospxs" revision="aosp-4.4" />
   <project path="frameworks/base" name="aosp_frameworks_base" remote="aospxs" revision="aosp-4.4" />
