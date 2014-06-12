@@ -11,7 +11,7 @@
   <remote  name="aospxs"
             fetch="git://github.com/AOSPXS/" />
 
-  <project path="build" name="platform/build" remote="aospxs" revision="aosp-4.4" groups="pdk" >
+  <project path="build" name="aosp_build" remote="aospxs" revision="aosp-4.4" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -19,7 +19,6 @@
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
@@ -415,6 +414,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- nozomi specific changes -->
+  <project path="bootable/recovery" name="aosp_bootable_recovery" remote="aospxs" revision="aosp-4.4" />
   <project path="device/sony/nozomi" name="aosp_device_sony_nozomi" remote="aospxs" revision="aosp-4.4" />
   <project path="device/sony/nozomi/DASH" name="sony_DASH" remote="aospxs" revision="aosp-4.4" />
   <project path="external/busybox" name="aosp_external_busybox" remote="aospxs" revision="aosp-4.4" />  
