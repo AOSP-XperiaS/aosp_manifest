@@ -310,7 +310,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -418,6 +417,8 @@
   <project path="external/busybox" name="aosp_external_busybox" remote="aospxs" revision="aosp-4.4" />  
   <project path="external/bluetooth/bluedroid" name="aosp_external_bluetooth_bluedroid" remote="aospxs" revision="aosp-4.4" />
   <project path="external/libsepol" name="aosp_external_libsepol" remote="aospxs" revision="aosp-4.4" />
+  <project path="external/koush/Superuser" name="aosp_external_koush_Superuser" remote="aospxs" revision="aosp-4.4" /> 
+  <project path="external/koush/Widgets" name="aosp_external_koush_Widgets" remote="aospxs" revision="aosp-4.4" /> 
   <project path="frameworks/base" name="aosp_frameworks_base" remote="aospxs" revision="aosp-4.4" />
   <project path="frameworks/native" name="aosp_frameworks_native" remote="aospxs" revision="aosp-4.4" />
   <project path="frameworks/opt/telephony" name="aosp_frameworks_opt_telephony" remote="aospxs" revision="aosp-4.4" />
@@ -427,6 +428,7 @@
   <project path="kernel/nozomi" name="kernel_sony_msm8x60" remote="aospxs" revision="aosp-4.4" />
   <project path="packages/apps/Camera2" name="aosp_packages_apps_Camera2" remote="aospxs" revision="aosp-4.4" />
   <project path="packages/apps/Bluetooth" name="aosp_packages_apps_Bluetooth" remote="aospxs" revision="aosp-4.4" />
+  <project path="packages/apps/Settings" name="aosp_packages_apps_Settings" remote="aospxs" revision="aosp-4.4" />
   <project path="system/core" name="aosp_system_core" remote="aospxs" revision="aosp-4.4" />
   <project path="vendor/sony" name="proprietary_vendor_sony" remote="aospxs" revision="aosp-4.4" />
  
