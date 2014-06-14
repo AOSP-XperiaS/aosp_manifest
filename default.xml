@@ -394,7 +394,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
@@ -430,6 +429,7 @@
   <project path="packages/apps/Bluetooth" name="aosp_packages_apps_Bluetooth" remote="aospxs" revision="aosp-4.4" />
   <project path="packages/apps/Settings" name="aosp_packages_apps_Settings" remote="aospxs" revision="aosp-4.4" />
   <project path="system/core" name="aosp_system_core" remote="aospxs" revision="aosp-4.4" />
+  <project path="system/extras" name="aosp_system_extras" remote="aospxs" revision="aosp-4.4" />
   <project path="vendor/sony" name="proprietary_vendor_sony" remote="aospxs" revision="aosp-4.4" />
  
 
