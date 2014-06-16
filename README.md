@@ -1,4 +1,4 @@
-AOSP for Xperia S (nozomi)
+AOSP for Xperia S (nozomi) and Xperia Acro S (hikari)
 =================================
 
 Getting Started
@@ -15,7 +15,8 @@ Getting Started
 3. build:
 
     - source build/envsetup.sh
-    - lunch aosp_nozomi-userdebug
+    - lunch aosp_nozomi-userdebug for nozomi
+    - lunch aosp_hikari-userdebug for hikari
     - make
 
 
