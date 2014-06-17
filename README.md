@@ -1,4 +1,4 @@
-AOSP for Xperia S (nozomi) and Xperia Acro S (hikari)
+AOSPXS for Xperia S (nozomi) and Xperia Acro S (hikari)
 =================================
 
 Getting Started
@@ -6,7 +6,7 @@ Getting Started
 
 **1. initialize the repo:**
 
-    repo init -u git://github.com/AOSPXS/aosp_manifest.git -b aosp-4.4
+    repo init -u git://github.com/AOSPXS/aosp_manifest.git -b aospxs-4.4
 
 **2. sync repo:**
 
