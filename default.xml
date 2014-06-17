@@ -11,7 +11,7 @@
   <remote  name="aospxs"
             fetch="git://github.com/AOSPXS/" />
 
-  <project path="build" name="aosp_build" remote="aospxs" revision="aosp-4.4" groups="pdk" >
+  <project path="build" name="aosp_build" remote="aospxs" revision="aospxs-4.4" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -412,8 +412,8 @@
 
   <!-- nozomi specific changes -->
   <project path="bootable/recovery" name="aosp_bootable_recovery" remote="aospxs" revision="aosp-4.4" />
-  <project path="device/sony/nozomi" name="aosp_device_sony_nozomi" remote="aospxs" revision="aosp-4.4" />
-  <project path="device/sony/hikari" name="aosp_device_sony_hikari" remote="aospxs" revision="aosp-4.4" />
+  <project path="device/sony/nozomi" name="aosp_device_sony_nozomi" remote="aospxs" revision="aospxs-4.4" />
+  <project path="device/sony/hikari" name="aosp_device_sony_hikari" remote="aospxs" revision="aospxs-4.4" />
   <project path="external/busybox" name="aosp_external_busybox" remote="aospxs" revision="aosp-4.4" />  
   <project path="external/bluetooth/bluedroid" name="aosp_external_bluetooth_bluedroid" remote="aospxs" revision="aosp-4.4" />
   <project path="external/libsepol" name="aosp_external_libsepol" remote="aospxs" revision="aosp-4.4" />
@@ -428,7 +428,7 @@
   <project path="kernel/sony/msm8x60" name="kernel_sony_msm8x60" remote="aospxs" revision="aosp-4.4-oc" />
   <project path="packages/apps/Camera2" name="aosp_packages_apps_Camera2" remote="aospxs" revision="aosp-4.4" />
   <project path="packages/apps/Bluetooth" name="aosp_packages_apps_Bluetooth" remote="aospxs" revision="aosp-4.4" />
-  <project path="packages/apps/Settings" name="aosp_packages_apps_Settings" remote="aospxs" revision="aosp-4.4" />
+  <project path="packages/apps/Settings" name="aosp_packages_apps_Settings" remote="aospxs" revision="aospxs-4.4" />
   <project path="packages/apps/Torch" name="aosp_packages_apps_Torch" remote="aospxs" revision="aosp-4.4" />
   <project path="system/core" name="aosp_system_core" remote="aospxs" revision="aosp-4.4" />
   <project path="system/extras" name="aosp_system_extras" remote="aospxs" revision="aosp-4.4" />
