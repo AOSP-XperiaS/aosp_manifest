@@ -421,7 +421,7 @@
   <project path="external/koush/Widgets" name="aosp_external_koush_Widgets" remote="aospxs" revision="aosp-4.4" /> 
   <project path="frameworks/base" name="aosp_frameworks_base" remote="aospxs" revision="aospxs-4.4" />
   <project path="frameworks/native" name="aosp_frameworks_native" remote="aospxs" revision="aosp-4.4" />
-  <project path="frameworks/opt/telephony" name="aosp_frameworks_opt_telephony" remote="aospxs" revision="aosp-4.4" />
+  <project path="frameworks/opt/telephony" name="aosp_frameworks_opt_telephony" remote="aospxs" revision="aospxs-4.4" />
   <project path="hardware/broadcom/libbt" name="aosp_hardware_broadcom_libbt" remote="aospxs" revision="aosp-4.4" />
   <project path="hardware/libhardware" name="aosp_hardware_libhardware" remote="aospxs" revision="aosp-4.4" />
   <project path="hardware/libhardware_legacy" name="aosp_hardware_libhardware_legacy" remote="aospxs" revision="aosp-4.4" />
