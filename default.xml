@@ -419,7 +419,7 @@
   <project path="external/libsepol" name="aosp_external_libsepol" remote="aospxs" revision="aosp-4.4" />
   <project path="external/koush/Superuser" name="aosp_external_koush_Superuser" remote="aospxs" revision="aosp-4.4" /> 
   <project path="external/koush/Widgets" name="aosp_external_koush_Widgets" remote="aospxs" revision="aosp-4.4" /> 
-  <project path="frameworks/base" name="aosp_frameworks_base" remote="aospxs" revision="aosp-4.4" />
+  <project path="frameworks/base" name="aosp_frameworks_base" remote="aospxs" revision="aospxs-4.4" />
   <project path="frameworks/native" name="aosp_frameworks_native" remote="aospxs" revision="aosp-4.4" />
   <project path="frameworks/opt/telephony" name="aosp_frameworks_opt_telephony" remote="aospxs" revision="aosp-4.4" />
   <project path="hardware/broadcom/libbt" name="aosp_hardware_broadcom_libbt" remote="aospxs" revision="aosp-4.4" />
@@ -429,6 +429,7 @@
   <project path="packages/apps/Camera2" name="aosp_packages_apps_Camera2" remote="aospxs" revision="aosp-4.4" />
   <project path="packages/apps/Bluetooth" name="aosp_packages_apps_Bluetooth" remote="aospxs" revision="aosp-4.4" />
   <project path="packages/apps/Settings" name="aosp_packages_apps_Settings" remote="aospxs" revision="aosp-4.4" />
+  <project path="packages/apps/Torch" name="aosp_packages_apps_Torch" remote="aospxs" revision="aosp-4.4" />
   <project path="system/core" name="aosp_system_core" remote="aospxs" revision="aosp-4.4" />
   <project path="system/extras" name="aosp_system_extras" remote="aospxs" revision="aosp-4.4" />
   <project path="vendor/sony" name="proprietary_vendor_sony" remote="aospxs" revision="aosp-4.4" />
