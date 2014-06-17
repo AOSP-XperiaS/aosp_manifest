@@ -334,7 +334,6 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -430,6 +429,7 @@
   <project path="packages/apps/Bluetooth" name="aosp_packages_apps_Bluetooth" remote="aospxs" revision="aosp-4.4" />
   <project path="packages/apps/Settings" name="aosp_packages_apps_Settings" remote="aospxs" revision="aospxs-4.4" />
   <project path="packages/apps/Torch" name="aosp_packages_apps_Torch" remote="aospxs" revision="aosp-4.4" />
+  <project path="packages/services/Telephony" name="aosp_packages_services_Telephony" remote="aospxs" revision="aospxs-4.4" />
   <project path="system/core" name="aosp_system_core" remote="aospxs" revision="aosp-4.4" />
   <project path="system/extras" name="aosp_system_extras" remote="aospxs" revision="aosp-4.4" />
   <project path="vendor/sony" name="proprietary_vendor_sony" remote="aospxs" revision="aosp-4.4" />
