@@ -432,6 +432,7 @@
   <project path="packages/services/Telephony" name="aosp_packages_services_Telephony" remote="aospxs" revision="aospxs-4.4" />
   <project path="system/core" name="aosp_system_core" remote="aospxs" revision="aosp-4.4" />
   <project path="system/extras" name="aosp_system_extras" remote="aospxs" revision="aosp-4.4" />
+  <project path="vendor/aospxs" name="aosp_vendor_aospxs" remote="aospxs" revision="aospxs-4.4" />
   <project path="vendor/sony" name="proprietary_vendor_sony" remote="aospxs" revision="aosp-4.4" />
  
 
