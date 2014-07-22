@@ -18,6 +18,10 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
+  <!-- LINARO TOOLCHAIN -->
+  <project name="JustArchi/Linaro" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="github" revision="4.9-eabi" />
+  <project name="JustArchi/Linaro" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="4.9-androideabi" />
+  
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
