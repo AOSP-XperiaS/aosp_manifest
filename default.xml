@@ -3,17 +3,21 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
-  <default revision="refs/tags/android-4.4.3_r1.1"
+  <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
            sync-j="4" />
 
   <!-- Remote for nozomi specific changes -->
   <remote  name="aospxs"
             fetch="git://github.com/AOSPXS/" />
-
-  <project path="build" name="aosp_build" remote="aospxs" revision="aosp-4.4" groups="pdk" >
+            
+  <remote  name="AOSP-XperiaS"
+            fetch="git://github.com/AOSP-XperiaS/" />
+            
+  <project path="build" name="aosp_build" remote="AOSP-XperiaS" revision="aosp-4.4" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
